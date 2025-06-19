@@ -1,0 +1,21 @@
+
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: #adbef5;
+
+    
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffbf00;
+    font-weight: bolder;
+}
+
+.destaque {
+    color: rgb(0, 196, 250);
+    font-weight: 600;
+}
