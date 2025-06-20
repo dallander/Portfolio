@@ -13,7 +13,7 @@ body {
     border: none;
 }
 .btn.btn-primary:hover{
-    content: url(/assets/images/pastas-mural/pasta-de-codigo.png);
+    content: url(../../assets/images/pastas-mural/pasta-de-codigo.png);
 }
 
 .card.card-body{
