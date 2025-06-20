@@ -1,165 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio</title>
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/meuStyle.css">
   <link rel="stylesheet" href="assets/fonts/fontsStyle.css">
-
+  <title>Portfólio</title>
 </head>
 <body>
-
-  <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-5">
-            <h4>Mural de rojetos Pessoais</h4>
-            <p>Em desenvolvimento...</p>
-
-            <!--ÁREA DE COLLAPSE INÍNCIO-->
-                <div class="col">
-                   <p>
-                      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <img src="assets/images/pastas-mural/pasta-fechada.png" alt="Pasta de projeto">
-                      </a>
-                    </p>
-                    <div class="collapse" id="collapseExample">
-                      <div class="card card-body">
-                        Projeto lanchonete, nele eu vou trabalhar com PHP(PDO), MYSQL e aplicar a metodologia AJAX.
-                        <a href="" class="btn btn-info">Visitar Repositório</a>
-                      </div>
-                    </div>
+  <main class="principal">
+      <!--INÍCIO SESSÃO PROJETOS-->
+      <section class="sessaoProjetos">
+        <h2>PROGETOS PESSOAIS</h2>
+        <section class="galeriaProjetos">
+          <!--INÍCIO COLLAPSE BOOTSTRAP-->
+            <p class="pGaleriaProjetos">
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="assets/images/pastas-mural/pasta-fechada.png" alt="Pasta Projeto">
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                <a href="https://github.com/dallander/Projeto-lanchonete" class="visitarProjeto" target="_blank">Visiatar  o projeto</a>
+              </div>
               
-                </div>
-              <!--ÁREA DE COLLAPSE FIM-->
+            </div>
+
+            <p class="pGaleriaProjetos">
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample-pj2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="assets/images/pastas-mural/pasta-fechada.png" alt="Pasta Projeto">
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample-pj2">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                <a href="" class="visitarProjeto">Visiatar  o projeto</a>
+              </div>
+            </div>
 
 
+          <!--FIM COLLAPSE BOOTSTRAP-->
+        </section>
 
+        <section class="galeriaDesafios">
+            <h2>Desafios</h2>
+            <p class="paragrafoGalerias">
+              EM CONSTRUIÇÃO
+            </p>
+        </section>
+      </section>
+      
 
+      <!--FIM SESSÃO PROJETOS-->
 
-
-
-
-
-
-          </div>
-          <div class="col">
-            <div class="col"><h2>Olá, meu nome é Hendrio.</h2></div>
-            <div class="col">
-              <p class="sobre">
-                Hoje meu foco de estudo está em <span class="destaque">PHP</span>, <span class="destaque">PDO</span>, <span class="destaque">MySQL</span>, <span class="destaque">Flutter</span>, <span class="destaque">JSON</span>, <span class="destaque">JavaScript</span>, que têm aparecido o tempo todo nos projetos. Ainda estou no começo, aprendendo muita coisa na marra, errando bastante, mas cada erro tem virado aprendizado.
+      <!--INÍCIO SESSÃO SOBRE-->
+      <section class="sessaoSobre">
+        <section class="galeriaSobre">
+          <h1>Oi, meu nome é Hendrio.</h1>
+          <p class="paragrafoGalerias">
+                Hoje meu foco de estudo está em <span class="destaque">PHP</span>, <span class="destaque">PDO,</span> <span class="destaque">MySQL,</span> <span class="destaque">Flutter,</span> <span class="destaque">JSON,</span> <span class="destaque">JavaScript</span>, que têm aparecido o tempo todo nos projetos. Ainda estou no começo, aprendendo muita coisa na marra, errando bastante, mas cada erro tem virado aprendizado.
               </p>
-              <p class="sobre">
-                Já dei umas passadas por linguagens como <span class="destaque">C</span>, <span class="destaque">C++</span>e <span class="destaque">Python</span>, tenho conhecimento em redes como roteamento, NAT, Vlan etc.. <br> Atualmente é meu trabalho, mas programação tem me interessado, então estou em processo de mudança de carreira.
+              <p class="paragrafoGalerias">
+                Já dei umas passadas por linguagens como <span class="destaque">C</span>, <span class="destaque">C++ </span> e <span class="destaque">Python</span>, tenho conhecimento em redes como roteamento, NAT, Vlan etc.. <br> Atualmente é meu trabalho, mas programação tem me interessado, então estou em processo de mudança de carreira.
               </p>
-              <p class="sobre">
+              <p class="paragrafoGalerias">
                 Gosto de resolver problemas, quebrar a cabeça até fazer funcionar e, principalmente, ver a evolução acontecendo aos    poucos. Sei que ainda tenho muito chão pela frente, mas estou firme no caminho.
                  <strong>#ODEIO FRONTEND</strong>, meu objetivo é o back então front vai ficar de lado <strong>(vou deixar uns projetos Front que eu rabisquei)</strong>.
-              </p>
-            </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-5">
-              
-            <div class="col">
-              <h4>DESAFIOS</h4> 
-            </div>
-            <div class="col">
-              <h4 style="color: rgb(1, 245, 70);">Starbucks</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus? Eum officiis incidunt similique! Eos ducimus consequuntur, rerum dignissimos tempore earum corrupti, est autem libero doloribus hic odio quae aspernatur?
-                </p>
-              <div class="col colDesafiosProjetos">
-                <div class="tags">CSS</div>
-                <div class="tags">Grid</div>
-              </div>
-              <a href="https://dallander.github.io/Desafio-Projeto-Starbucks-com-Flexbox-e-grid/" class="desafiosProjetos" target="_blank">
-                <img src="assets/images/imagensDesafios/starb.PNG" alt="Starbucks">
-              </a>
-                
-            </div>
-            
-            
-          </div>
-          <div class="col">
-            <div class="col">
-              <h4>Certificados</h4>
-                <p class="sobre">
-                  Aqui estão alguns dos meus certificados. Tenho uma quantidade grande, mas escolhi listar apenas alguns dos que mais gosto e que considero mais representativos, tanto na área de redes, onde atuo atualmente, quanto no campo da programação, que é meu foco de estudo agora.
-                </p>
-                <p class="sobre">
-                  Cada um desses cursos teve mais de 100 horas de prática, fora os projetos pessoais e os desafios que realizei depois de cada módulo. Para não deixar a lista repetitiva, coloquei só um certificado de cada área ou tecnologia, já que muitos dos cursos eram divididos em módulos separados e, por isso, geravam certificados diferentes.
-                </p>
-                <p class="sobre">
-                  Então, ao olhar essa lista, leve em conta que o aprendizado por trás de cada certificado vai muito além da carga horária oficial.
-                </p>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">
-              <div class="carousel-inner">
-                <div class="carousel-item active ">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/php.jpg" alt="Primeiro Slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/JAVASCRIPT-B7WEB.jpg">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/BancoDeDados-B7WEB.jpg">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/HTML5-CSS3-B7WEB.jpg">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/c.PNG">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/python.PNG">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/mikrotik-v7.PNG">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 tamanhoimgcarro" src="assets/images/certificados/desafio.PNG">
-                </div>
+        </section>
 
-              </div>
-              
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #0c132a; height: 50px; width: 40px;"></span>
-                
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #0c132a; height: 50px; width: 40px;"></span>
-                
-              </a>
-            </div>
-            
-            </div>
-
-          </div>
-          <div class="w-100"></div>
+        <section class="sessaoCerficiados">
           
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <h2>CERTIFICADOS</h2>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/images/certificados/php.jpg" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/images/certificados/JAVASCRIPT-B7WEB.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/images/certificados/BancoDeDados-B7WEB.jpg" alt="Terceiro Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
 
-        </div>
-      </div>
-</main>
+        </section>
+      </section>
+      <!--FIM SESSÃO SOBRE-->
+  </main>
 
-<footer class="col">
-  <div class="col img">
-    <a href="https://www.linkedin.com/in/hendrio-le%C3%A3o-3a6b18250/" class="linka" target="_blank"><img src="assets/images/logos/linkedin.png" alt="linkedin"></a>
-    <a href="https://github.com/dallander?tab=repositories" class="linka" target="_blank"><img src="assets/images/logos/github.png" alt="github"></a>
-  </div>
+
+<footer>
+  <section class="redeSocial">
+    <a href="https://github.com/dallander" target="_blank">
+      <img src="assets/images/icons/github.png" alt="github">
+    </a>
+    <a href="https://www.linkedin.com/in/hendrio-le%C3%A3o-3a6b18250/" target="_blank"> 
+      <img src="assets/images/icons/linkedin.png" alt="linkedin">
+    </a>
+  </section>
 </footer>
 
 
 
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

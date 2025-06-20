@@ -1,21 +1,32 @@
 
-
-
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    color: #adbef5;
-
-    
+h1, h2 , h3 ,h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;  /* Negrito */
+    color: #FFD700;     /* Branco para contraste */
+    letter-spacing: 1px
 }
 
-h1,h2,h3,h4{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffbf00;
-    font-weight: bolder;
+
+.paragrafoGalerias{
+    color: #fff ;
+    text-align: justify;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.paragrafoGalerias:hover{
+    background-color: #041834 ;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .destaque {
-    color: rgb(0, 196, 250);
-    font-weight: 600;
+  background-color: #00FFFF ;
+  color: #041834;
+  padding: 1px 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+    
 }

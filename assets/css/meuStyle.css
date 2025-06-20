@@ -1,145 +1,146 @@
-
-
-body {
-   background: linear-gradient(to bottom, #0e162f 30%, #050b21 50%, #060f31 80%, #02060e 100%);
-    text-align: justify;
-    margin-bottom: 100px;
-    
-}
-
-/* CONFIGURAÇÃO DO COLLAPSE INICIO */
-.btn.btn-primary{
-    background-color: transparent;
-    border: none;
-}
-.btn.btn-primary:hover{
-    content: url(../../assets/images/pastas-mural/pasta-de-codigo.png);
-}
-
-.card.card-body{
-    background-color: #01393e;
-}
-
-.btn.btn-info{
-    width: 170px;
-    height: 40px;
-    margin: auto;
-    
-}
-/* CONFIGURAÇÃO DO COLLAPSE FIM */
-.container {
-    margin: 0px;
-    
-}
-.row {
-    width: 90vw;
-    
-}
-
-::selection {
-    background-color: #ffbf00;
-    color: black;
-}
-.absoluto{
-    position: absolute;
-    margin-top: 15%;
-    width: 100px;
-    z-index: 1;
-    display: none;
-    
-}
-
-
-
-.col .img  img{
-    width: 100%;
-    height: 100%;
-    padding: 3px;
-}
-.col .img  img:hover{
+*{
+    margin: 0;
     padding: 0;
-    
-    
+    box-sizing: border-box;
+}
+html {
+    background-color: #041834;
 }
 
-
-.linka{
-    margin-top: 50px;
-    width: 42px;
-    padding: 4px;
-    box-shadow: #3060fb 0px 3px 8px;
-    border-radius: 100%;
-    margin-right: 20px;
-    background-color: rgb(7, 5, 17);
-}
-
-.col.img {
+body{
+    
+    background: linear-gradient(to bottom, #141b23 0%, #1a2332 30%, #041834 100%);
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    flex-direction: row;
-    padding: 4px;
-    position: fixed;
-    top: 20px;
-    right: 2px;
-    width: 130px;
-    
-
-    
-}
-.tamanhoimgcarro{
-    height: 450px;
-    
-}
-.col.colDesafiosProjetos{
-    margin-bottom: 20px;
-   
-}
-.desafiosProjetos img {
-    width: 400px;
-    height: 200px;
-    
-}
-
-.colDesafiosProjetos {
-    display: flex;
-    
-}
-
-.sobre {
-    padding: 5px;
-    
-}
-
-.sobre:hover {
-    background-color: #01393e;
-    border-radius: 10px;
+    flex-direction: column;
     
 }
 
 
-/*CONFIGURAÇÃO DA TAGS DESTACADAS DOS DESAFIOS*/
-.tags {
-    font-weight: 900;
-    font-size: 12px;
-    color: #09ffad;
-    margin-right: 5px;
-    text-align: justify;
-    background-color: #011a43;
-    height: 20px;
-    width: 40px;
-    border-radius: 3px;
-    font-weight: bolder;
-    box-shadow: 0px 3px 4px #09ffad;
+.redeSocial{
     display: flex;
     justify-content: center;
-    align-items: center;
-    user-select: none;
+    
+    
+}
+.redeSocial img {
+    background-color: #041834 ;
+    margin-top: 10px;
+
+}
+
+
+/*CONFIGURAÇÃO DO MAIN INICIO*/
+.principal{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.principal::selection{
+    background-color: #f8ff20;
+    color: #000;
+}
+/*CONFIGURAÇÃO DO MAIN FIM*/
+
+
+
+
+/*CONFIGURAÇÃO DA SESSÃO PROJETOS INICIO*/
+.sessaoProjetos, .sessaoSobre{
+    border: 1px solid green;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 5px 5px 5px;
+   
+}
+
+
+/*CONFIGURAÇÃO DA SESSÃO PROJETOS FIM*/
+
+
+
+/*CONFIGURAÇÃO DA SESSÃO GALERIA PROJETOS INÍCIO*/
+
+.galeriaProjetos {
+    display: flex;
+    
+}
+/*CONFIGURAÇÃO DA SESSÃO GALERIA PROJETOS FIM*/
+
+
+
+/*CONFIGURAÇÃO COLLAPSE _______BOOTSTRAP__________ INÍCIO*/
+.btn.btn-primary{
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.btn.btn-primary:hover{
+    content: url(../../assets/images/pastas-mural/pasta-de-codigo.png);
+    background-color: transparent;
+    
     
 }
 
-.tags:hover{
-    color: #011a43;
-    background-color: #09ffad;
+.collapse {
+    position: relative;
+    top: 20px;
+    right: 15px;
+
 }
+.visitarProjeto {
+    text-decoration: none;
+    outline: none;
+    color: #e0e0e0;
+    margin: auto;
+    font-size: 17px;
+    height: 35px;
+    max-width:200px ;
+    background-color: #041834;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: 0px 4px 3px 0px #00dbf8;
+}
+.visitarProjeto:hover{
+    
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.card.card-body {
+    background-color: #041834;
+    position: absolute;
+    min-width: 300px;
+    font-weight: bolder;
+    box-shadow: 0px 4px 3px 0px #00dbf8;
+}
+
+.card.card-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d3d3d3;
+}
+
+
+/*CONFIGURAÇÃO DO SLIDE INÍCIO*/
+
+.carousel-inner{
+
+    max-width: 600px;
+}
+
+.sessaoCerficiados {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: #041834;
+    width: 30px;
+    height: 50px;
+}
+/*CONFIGURAÇÃO COLLAPSE BOOTSTRAP FIM*/
 
