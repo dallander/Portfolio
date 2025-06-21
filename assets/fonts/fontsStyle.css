@@ -5,7 +5,19 @@ h1, h2 , h3 ,h4 {
     color: #FFD700;     /* Branco para contraste */
     letter-spacing: 1px
 }
-
+.linkCollapse{
+    color: #000;
+    background-color: #FFD700;
+    padding: 2px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.linkCollapse:hover {
+    text-decoration: none;
+    color: #FFD700;
+    background-color: #000;
+    
+}
 
 .paragrafoGalerias{
     color: #fff ;
