@@ -5,11 +5,11 @@
 }
 
 html {
-    background-color: #041834;
+    background-color: #000000;
 }
 
 body {
-    background: linear-gradient(to bottom, #141b23 0%, #1a2332 30%, #041834 100%);
+    background-color: #000;
     display: flex;
     flex-direction: column;
 }
@@ -52,12 +52,25 @@ body {
 /*CONFIGURAÇÃO COLLAPSE FIM*/
 .redeSocial {
     display: flex;
+    border-top: 1px solid #303030;
     justify-content: center;
+
 }
 
+
+
+
+
+.containerTecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    margin-top: 30px;
+}
 .redeSocial img {
-    background-color: #041834;
-    margin-top: 10px;
+    height: 40px;
+    
+
 }
 
 /*CONFIGURAÇÃO DO MAIN INICIO*/
@@ -74,8 +87,6 @@ body {
 
 /*CONFIGURAÇÃO DA SESSÃO PROJETOS INICIO*/
 .sessaoProjetos, .sessaoSobre {
-    border: 1px solid green;
-    padding: 10px;
     width: 100%;
     margin: 5px 5px 5px 5px;
 }
@@ -127,4 +138,53 @@ body {
     text-decoration: none;
 }
 
+.tecnologia  {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    margin: 2px;
+    width: 90px;
+    padding: 16px;
+    background-color: #b0b6f9;
+    color: #e8e8e8;
+    height: 30px;
+}
+.containerTituloTecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+
+
+
+}
+
+
+.html {
+    background-color: #fe6200;
+    width: 200px;
+}
+.css {
+    background-color: #4931df;
+    width: 150px;
+}
+.js {
+    background-color: #333330;
+    width: 250px;
+}
+.mysql {
+    background-color: #0d0363;
+    width: 120px;
+}
+.flutter {
+    background-color: #03b9d1;
+    width: 230px;
+}
+.git {
+    background-color: #d36301;
+    width: 110px;
+}

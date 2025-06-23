@@ -3,8 +3,13 @@ h1, h2 , h3 ,h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;  /* Negrito */
     color: #FFD700;     /* Branco para contraste */
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    margin: 0px;
+
 }
+
+
+  
 .linkCollapse{
     color: #000;
     background-color: #FFD700;
@@ -19,19 +24,20 @@ h1, h2 , h3 ,h4 {
     
 }
 
+.containerLogoRedeSocial img{
+    margin-top: -20px;
+}
+
 .paragrafoGalerias{
-    color: #fff ;
+    color: #c0bfbf ;
     text-align: justify;
     padding: 5px;
     font-weight: 600;
     font-size: 16px;
+    border-top: 1px solid #303030;
 }
 
-.paragrafoGalerias:hover{
-    background-color: #041834 ;
-    border-radius: 5px;
-    padding: 5px;
-}
+
 
 .destaque {
   background-color: #00FFFF ;
