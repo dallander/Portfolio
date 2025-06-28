@@ -29,7 +29,7 @@ document.addEventListener("click", function(elemento){
 
 function abrirFecharPasta(pasta, aberta){
 pasta.src = aberta ?  
-"/assets/images/pastas-mural/pasta-aberta.png" : "/assets/images/pastas-mural/pasta-fechada.png";
+"assets/images/pastas-mural/pasta-aberta.png" : "assets/images/pastas-mural/pasta-fechada.png";
 };
 
 
