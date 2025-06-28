@@ -14,9 +14,66 @@ body {
     flex-direction: column;
 }
 
+h1, h2, h3, h4 {
+    font-size: 32px;
+    background: linear-gradient(130deg, #0A66C2, #833AB4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+.imgpasta {
+    cursor: pointer;
+}
+
+
+  
+.linkCollapse{
+    color: #FFF;
+    background: linear-gradient(100deg, #0A66C2, #3f2452);
+    padding: 2px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.linkCollapse:hover {
+    text-decoration: none;
+    color: #FFD700;
+
+    
+}
+
+.containerLogoRedeSocial img{
+    margin-top: -20px;
+}
+
+.paragrafoGalerias{
+    color: #f9f0ff ;
+    text-align: justify;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    border-top: 1px solid #918de3;
+    padding: 4px;
+}
+.paragrafoGalerias:hover {
+    background: linear-gradient(130deg, #0A66C2, #833AB4);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 4px;
+}
 
 
 
+.destaque {
+  background-color: #00FFFF ;
+  color: #041834;
+  padding: 1px 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+    
+}
 
 /*CONFIGURAÇÃO COLLAPSE INICIO*/
 .containerCollapse{
@@ -26,19 +83,27 @@ body {
 
 
 .conteudoCollapse{
+    background: linear-gradient(130deg, #0A66C2, #833AB4);
     width: 300PX;
-    height: 150PX;
+    height: 315PX;
     left: 100px;
+    top: 18px;
     background-color: rgb(0, 33, 70);
     position: absolute;
     z-index: 1;
     border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
 
 }
 
 .paragrafoCollapse{
     color: #fff;
+    
 }
+
 
 .escondido{
     display: none;
@@ -52,7 +117,7 @@ body {
 /*CONFIGURAÇÃO COLLAPSE FIM*/
 .redeSocial {
     display: flex;
-    border-top: 1px solid #303030;
+    border-top: 1px solid #833AB4;
     justify-content: center;
 
 }
@@ -66,6 +131,7 @@ body {
     flex-wrap: wrap;
     height: 100px;
     margin-top: 30px;
+    user-select: none;
 }
 .redeSocial img {
     height: 40px;
@@ -162,29 +228,55 @@ body {
 
 
 }
+.html img,.css img,.js img,.mysql img,.flutter img,.git img, .php img{
+    height: 40px;
+    width: 40px;
+}
+.flutter img {
+    height: 30px;
+    width: 30px;
+}
+.mysql img {
+    height: 50px;
+    width: 50px;
+}
 
-
+.php, .html, .css, .js, .mysq, .flutte, .git{ 
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 .html {
-    background-color: #fe6200;
-    width: 200px;
+    background-color: #d55404;
+    width: 160px;
 }
 .css {
     background-color: #4931df;
-    width: 150px;
+    width: 110px;
 }
 .js {
     background-color: #333330;
-    width: 250px;
+    width: 160px;
 }
 .mysql {
     background-color: #0d0363;
-    width: 120px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
 }
 .flutter {
-    background-color: #03b9d1;
-    width: 230px;
+    background-color: #029cb0;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 .git {
-    background-color: #d36301;
+    background-color: #dd6802;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     width: 110px;
 }
